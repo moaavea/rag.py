@@ -1,0 +1,27 @@
+# Core
+streamlit
+python-dotenv
+
+# LangChain stack (0.3 line)
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-huggingface
+langchain-chroma
+langchain-text-splitters
+pydantic
+
+# Vector store
+chromadb
+
+# PDF loading
+pypdf
+
+# Embeddings
+sentence-transformers
+huggingface-hub
+torch==2.1.2
+
+# Numerical backend
+numpy
