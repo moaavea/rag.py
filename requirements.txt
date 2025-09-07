@@ -3,8 +3,7 @@ streamlit==1.36.0
 python-dotenv==1.0.1
 
 # LangChain stack
-langchain==0.2.12
-langchain-core==0.2.23
+
 langchain-community==0.2.11
 langchain-groq==0.1.6
 langchain-huggingface==0.0.3
