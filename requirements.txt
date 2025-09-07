@@ -1,27 +1,28 @@
 # Core
-streamlit
-python-dotenv
+streamlit==1.36.0
+python-dotenv==1.0.1
 
-# LangChain stack (0.3 line)
-langchain
-langchain-core
-langchain-community
-langchain-groq
-langchain-huggingface
-langchain-chroma
-langchain-text-splitters
-pydantic
+# LangChain stack
+langchain==0.2.12
+langchain-core==0.2.23
+langchain-community==0.2.11
+langchain-groq==0.1.6
+langchain-huggingface==0.0.3
+langchain-chroma==0.1.2
 
 # Vector store
-chromadb
+chromadb==0.5.3
 
 # PDF loading
-pypdf
+pypdf==4.2.0
 
 # Embeddings
-sentence-transformers
-huggingface-hub
+sentence-transformers==2.7.0
+huggingface-hub==0.23.4
+
+# Torch (CPU build for Streamlit Cloud)
 torch==2.1.2
+--extra-index-url https://download.pytorch.org/whl/cpu
 
 # Numerical backend
-numpy
+numpy==1.26.4
